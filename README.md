@@ -5,9 +5,9 @@ application up and running.
 
 Things you may want to cover:
 
-* GUIDE : https://medium.com/swlh/how-to-build-an-api-with-ruby-on-rails-28e27d47455a
+## GUIDE : https://medium.com/swlh/how-to-build-an-api-with-ruby-on-rails-28e27d47455a
 
-* API Endpoints
+## API Endpoints
 - GET : `curl -X GET http://localhost:3000/api/v1/products`
 - POST : `curl -X POST http://localhost:3000/api/v1/products \
   -H "Content-Type: application/json" \
@@ -22,7 +22,7 @@ Things you may want to cover:
 - GET : `curl -X GET http://localhost:3000/api/v1/products/1`
 
 
-* Commands use to create
+## Commands use to create
 - `rails g model product name:string brand:string price:string description:string --no-helper --no-assets --no-template-engine --no-test-framework`
 - `rails g controller api/v1/products index show --no-helper --no-assets --no-template-engine --no-test-framework`
 - `rake db:create` or `rails db:create`
@@ -32,20 +32,18 @@ Things you may want to cover:
 - Add Test Data : `p = Product.new(name: "PS4", brand: "Sony", price: "$400.00 USD", description: "NextGen Gaming Console")` and `p.save`
 - `rake db:seed`
 
-* Ruby version
+## Ruby version
 
-* System dependencies
+## System dependencies
 
-* Configuration
+## Configuration
 
-* Database creation
+## Database creation
 
-* Database initialization
+## Database initialization
 
-* How to run the test suite
+## How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+## Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+## Deployment instructions
