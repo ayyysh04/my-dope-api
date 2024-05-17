@@ -11,6 +11,9 @@ Things you may want to cover:
 - `rake db:create` or `rails db:create`
 -  `rake db:migrate`
 - `rails server` or `rails s`
+- `rails c` 
+- Add Test Data : `p = Product.new(name: "PS4", brand: "Sony", price: "$400.00 USD", description: "NextGen Gaming Console")` and `p.save`
+- `rake db:seed`
 
 * Ruby version
 
